@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+ background-color: rgb(247, 247, 247);
+}
+
+main{
+    
+}
+/* header */
+
+.btns{
+    display: flex;
+    justify-content: right;
+}
+
+.table{
+
+}
+
+.theme{
+    margin: 0 1rem;
+}
+
+.btns button{
+    margin-top: 1rem;
+    border: 0;
+    background-color: transparent;
+    color: rgb(0, 187, 255);
+    font-weight: bold;
+    border: 0.2rem solid;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* main */
+
+.container{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+}
+
+ /* first content */
+.first-content{
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 0.3rem;
+    color: rgb(111, 110, 110);
+}
+    
+.text-content{
+
+}
+
+/* main content */
+.main-content{
+    display: none;
+    margin: auto;
+
+}
+
+.key-which{
+    text-align: center;
+    font-size: 15rem;
+    color: rgb(88, 88, 88);
+}
+
+.key-info{
+    display: flex;
+    text-align: center;
+    column-gap: 6rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.box-content{
+    width: 22rem;
+    height: 7rem;
+    background-color: #fff;
+    display: grid;
+}
+
+.box-title{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(0, 191, 255, 0.298);
+    padding: 0.4rem 0;
+    color: rgba(0, 0, 0, 0.678);
+    font-weight: bold;
+}
+
+.text-title{
+
+}
+
+.output{
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.625);
+}
+
+.box-title{
+
+}
+
+.text-title{
+
+}
+
+.key{
+
+}
+
+.location{
+
+}
+
+.which{
+
+}
+
+.code{
+
+}
+
+/* footer */
+
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(151, 150, 150);
+}
+
+.footer-content{
+
+}
+
+footer span{
+    color: rgba(255, 0, 0, 0.502);
+}
